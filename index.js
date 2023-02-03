@@ -1,5 +1,16 @@
 /* Your Code Here */
+function createEmployeeRecord(employeeData) {
+    let employeeRecord = {
+        firstName: employeeData[0],
+        familyName: employeeData[1],
+        title: employeeData[2],
+        payPerHour: employeeData[3],
+        timeInEvents: [],
+        timeOutEvents: []
+    }
+    return employeeRecord
 
+}
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
